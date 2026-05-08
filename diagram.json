@@ -1,0 +1,25 @@
+{
+  "version": 1,
+  "author": "Tinkered",
+  "editor": "wokwi",
+  "parts": [
+    { "type": "wokwi-arduino-uno", "id": "uno", "top": 0, "left": 0, "attrs": {} },
+    { "type": "wokwi-led", "id": "led_red", "top": -120, "left": 160, "attrs": { "color": "red" } },
+    { "type": "wokwi-led", "id": "led_yellow", "top": -120, "left": 220, "attrs": { "color": "yellow" } },
+    { "type": "wokwi-led", "id": "led_green", "top": -120, "left": 280, "attrs": { "color": "green" } },
+    { "type": "wokwi-resistor", "id": "r1", "top": -60, "left": 160, "attrs": { "value": "220" } },
+    { "type": "wokwi-resistor", "id": "r2", "top": -60, "left": 220, "attrs": { "value": "220" } },
+    { "type": "wokwi-resistor", "id": "r3", "top": -60, "left": 280, "attrs": { "value": "220" } }
+  ],
+  "connections": [
+    [ "uno:13", "r1:1", "red", [] ],
+    [ "r1:2", "led_red:A", "red", [] ],
+    [ "led_red:C", "uno:GND.1", "black", [] ],
+    [ "uno:12", "r2:1", "yellow", [] ],
+    [ "r2:2", "led_yellow:A", "yellow", [] ],
+    [ "led_yellow:C", "uno:GND.1", "black", [] ],
+    [ "uno:11", "r3:1", "green", [] ],
+    [ "r3:2", "led_green:A", "green", [] ],
+    [ "led_green:C", "uno:GND.1", "black", [] ]
+  ]
+}
