@@ -6,6 +6,20 @@ This project implements a simple traffic light control system using an **Arduino
 
 The system uses three LEDs (Red, Yellow, and Green) connected to digital pins on the Arduino, each protected by a $220\,\Omega$ resistor. The software is written in C++ and built using **PlatformIO**.
 
+```text
+Arduino-Uno-Traffic-Light-Simulator/
+├── .vscode/             # Editor-specific settings
+│   ├── .browse.c_cpp.db
+│   ├── c_cpp_properties.json
+│   ├── launch.json
+│   └── ipch/
+├── .gitignore           # Specifies files to ignore in Git
+├── diagram.json         # Wokwi hardware configuration and wiring
+├── main.cpp             # Main source code (usually inside /src)
+├── platformio.ini       # PlatformIO project configuration
+└── wokwi.toml           # Wokwi simulation configuration
+```text
+
 ### Hardware Connections
 
 | Component | Arduino Pin |
@@ -43,5 +57,3 @@ The system uses three LEDs (Red, Yellow, and Green) connected to digital pins on
 * `wokwi.toml`: Configuration for connecting Wokwi to the built firmware.
 
 ---
-
-Would you like me to add a section on how to customize the timing or change the pin assignments in the code?
