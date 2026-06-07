@@ -28,7 +28,7 @@ Arduino-Uno-Traffic-Light-Simulator/
 | Yellow LED | D12 |
 | Green LED | D11 |
 
-*Note: All LEDs are connected to the ground (GND) via a $220\,\Omega$ resistor.*
+*Note: All LEDs are connected to the ground (GND) via a $220 Ω  resistor.*
 
 ## Features
 
