@@ -18,7 +18,7 @@ Arduino-Uno-Traffic-Light-Simulator/
 ├── main.cpp             # Main source code (usually inside /src)
 ├── platformio.ini       # PlatformIO project configuration
 └── wokwi.toml           # Wokwi simulation configuration
-```text
+```
 
 ### Hardware Connections
 
