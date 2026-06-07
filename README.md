@@ -4,7 +4,7 @@ This project implements a simple traffic light control system using an **Arduino
 
 ## Project Overview
 
-The system uses three LEDs (Red, Yellow, and Green) connected to digital pins on the Arduino, each protected by a $220\,\Omega$ resistor. The software is written in C++ and built using **PlatformIO**.
+The system uses three LEDs (Red, Yellow, and Green) connected to digital pins on the Arduino, each protected by a 220 Ω resistor. The software is written in C++ and built using **PlatformIO**.
 
 ```text
 Arduino-Uno-Traffic-Light-Simulator/
@@ -28,7 +28,7 @@ Arduino-Uno-Traffic-Light-Simulator/
 | Yellow LED | D12 |
 | Green LED | D11 |
 
-*Note: All LEDs are connected to the ground (GND) via a $220 Ω  resistor.*
+*Note: All LEDs are connected to the ground (GND) via a 220 Ω  resistor.*
 
 ## Features
 
